@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Trabalhando com Vídeos</h1>
+    <p>Tabelinha de compatibilidade de navegadores</p>
+    <h2>Vídeos com hospedagem própria</h2>
+    <img src="midia/compat.png" alt="Tabelinha"> 
+
+    <video src="midia/vid.mp4" height="315" width="560" controls poster="midia/thumb1.png"></video>
+    <video width="560" poster="midia/thumb2.png" controls>
+        <source src="midia/Landscape.m4v" type="video/m4v">
+        <source src="midia/landscape.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com a reprodução deste vídeo!</p>
+    </video>
+    <h3>Cuidado!</h3>
+    <p>Vídeos consomem quantidade absurdas de largura de banda, ficando muito custoso para o seu cliente manter o serviço de hospedagem. Um vídeo de 150MB com 200 acessos pode gerar um tráfego de 29GB (!) <br>
+        Esse problema pode ser facilmente resolvido utilizando um player externo, como o do Youtube e do Vimeo.</p>
+
+    <h2>Inserindo Vídeos do YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

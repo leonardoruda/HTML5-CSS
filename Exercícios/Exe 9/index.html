@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="2"> <!--outros types são A,a,I,i-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ligar para Fulano</li>
+        <li>Ir para a faculdade</li>
+        <li>Ir apra o trabalho</li>
+        <li>Ir para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="disc"> <!--Outros types são square e circle-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Juntando listas</h2>
+    <h3>Minhas linguagens preferidas</h3>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="4"> <!--Note que, mesmo o tipo sendo alfabético, o "start" trabalha apenas com valores numéricos!-->
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+        </ol>
+    </ol>
+<h2>Meus jogos favoritos</h2>
+<ul type="disc">
+    <li>Playstation 2</li>
+        <ol>
+            <li>Resident Evil</li>
+                <ul type="square">
+                    <li>Resident Evil 4</li>
+                </ul>
+            <li>Shadow of the Colossus</li>
+            <li>Silent Hill
+                <ul type="square">
+                    <li>Silent Hill 2</li>
+                </ul>
+            <li>Gun</li>
+        </ol>
+    <li>Playstation 3</li>
+        <ol>
+            <li>The Last of Us</li>
+            <li>Dark Souls</li>
+                <ul type="square">
+                    <li>Dark Souls</li>
+                    <li>Dark Souls II: Scholar of the First Sin</li>
+                </ul>
+            <li>Grand Theft Auto</li>
+                <ul type="square">
+                    <li>GTA IV</li>
+                </ul>
+            <li>Resident Evil</li>
+                    <ul type="square">
+                        <li>Resident Evil 5</li>
+                        <li>Resident Evil 6</li>
+                    </ul>
+        </ol>
+    <li>Playstation 4</li>
+        <ol>
+            <li>The Witcher</li>
+                <ul type="square">
+                    <li>The Witcher 3: Wild Hunt</li>
+                </ul>
+            <li>Sekiro: Shadows Die Twice</li>
+            <li>BloodBorne</li>
+        </ol>
+</ul>
+<h2>Lista de Definições</h2> <!--Especialmente úteis porque os indexadores de pesquisa utilizam as definições fornecidas dentro das listas de definições-->
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação do <em>conteúdo</em> de um site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para a criação de <em>design</em> de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de <em>interatividade</em> de um site</dd>
+</dl>
+</body>
+</html>

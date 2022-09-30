@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Hall';
+            src: url(Hallies.ttf) format('truetype'), url(Hallies.otf) format('opentype');
+            font-weight: lighter;
+            font-style: normal;
+
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                -embedded-opentype
+                -truetype-aat (apple advanced typography)
+                - svg
+            */
+        }
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h1, h2 {
+        font-family: 'Hall';
+    }
+    </style>
+</head>
+<body>
+    Acessar <a target="_blank" href="https://dafont.com/">DaFont</a>
+    OBS: o google fonts também tem opção para baixar suas fontes
+
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas perspiciatis, tempore soluta voluptate earum, vitae ipsum natus accusantium magnam molestias officia asperiores veniam ut modi nemo hic mollitia? Vero, delectus!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae odio natus molestias assumenda beatae totam dolore veritatis sed maiores tempora obcaecati, atque quisquam voluptatem odit quis, architecto quibusdam, earum autem.</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, inventore porro obcaecati esse doloribus ut quidem! Iure, illo enim magni nam eum minima perferendis aliquid, optio modi tempore sapiente dolorum.</p>
+    <h1>Sites Extras</h1>
+    <p>Usados para descobrir as fontes em imagens!</p>
+    <ul type="disc">
+        <li><a target="_blank" href="https://www.whatfontis.com/">What Font Is</a></li>
+        <li><a target="_blank" href="https://www.fontsquirrel.com/">Font Squirrel</a></li>
+        <li><a target="_blank" href="https://www.myfonts.com/">My Fonts</a></li>
+
+    </ul>
+</body>
+</html>

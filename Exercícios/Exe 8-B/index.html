@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Como tal, usando a tag code, podemos tornar o comando mono-espaçado.</p>
+
+        <code>
+            num = int(input('Digite um número'))
+            if num % 2 == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR')
+            print('Fim do programa')
+        </code>
+
+    <p>No exemplo acima, apesar de usarmos a tag code, o HTML não lê o código escrito com indentação, quebras de linha etc. <br>
+        Para resolvermos isso, envelopamos o código com a tag PRE, e veja o resultado: 
+    </p>
+    <pre>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q> — tag q de "quote"</p>
+    <h2>Citações completas</h2>
+    <p>Segundo o autor Jeff Noble, no seu livro HTML para iniciantes:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_XHTML_e_CSS_Para_Leigos/E8ZtDwAAQBAJ?hl=pt-BR&gbpv=1&dq=google+livros&printsec=frontcover">O computador é um burro muito veloz</blockquote>
+    <p>Utilizamos o comando blockquote e o parâmetro cite. Este último não altera visualmente a citação, mas serve como indexador para mecanismos de busca e derivados...</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando! — Envelopamos com a tag abbr</p>
+    <h2>Texto <bdo dir="rtl">invertido</bdo> (invertido)</h2>
+    <p><bdo dir="rtl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dignissimos natus, illo aspernatur eveniet unde dolores alias quos ducimus numquam, accusantium similique inventore facilis corporis nihil asperiores sint ipsum incidunt.</bdo></p>
+    <p>Utilizamos a tag bdo (bi-directional override) e o dir rtl (right-to-left).</p>
+</body>
+</html>

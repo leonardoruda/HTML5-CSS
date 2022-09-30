@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Prática</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(126, 223, 190);
+        }
+        h1 {
+            font-weight: bold;
+            color: blueviolet;
+        }
+        h1#principal {
+            text-align: center;
+            background-color: rgb(11, 199, 199);
+            color: rgb(133, 34, 133);
+        }
+        h2 {
+            text-align: right;
+            color: brown;
+        }
+        p {
+            text-align: justify;
+            font-size: 1.2em;
+        }
+        div::before {
+            content: '»';
+        }
+        div::after {
+            content: '«';
+        }
+        div:hover {
+            font-weight: bold;
+            text-decoration: underline;
+            color: red;
+        }
+        div.oculto > p {
+            display: none;
+        }
+        .oculto:active > p {
+            display: block;
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+        }
+        span {
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal">Aprenda Desenvolvimento Web</h1>
+    <h1>Aprenda HTML</h1>
+    <h2>Semântica Web</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, aliquid quidem! Aliquam totam quod, maxime aliquid assumenda, voluptatem ad voluptas, enim quasi ipsum officia. Nemo unde quos ea nihil quas.</p>
+    <h1>Aprenda CSS</h1>
+    <h2>Estilos Web</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae cupiditate voluptatibus possimus, in dolorem quia fugit eligendi unde perferendis quisquam deserunt molestias, iusto enim quae error dolor ad quo inventore?</p>
+    <h1>Texto Oculto</h1>
+    <p>Faça uma "caixa" que abrirá revelando um texto após ser clicada!</p>
+    <br>
+    <div class="oculto">Clique e segure!
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit! Vel accusamus, <span>odio modi magnam</span>, a nam sed corrupti quidem veniam expedita vitae debitis excepturi, maiores voluptas! Totam doloremque voluptas earum repellendus!</p>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios</title>
+</head>
+<body>
+    <p>Para voltar à página de imagens, clique <a href="index.html">aqui</a>.</p>
+    <hr>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos reproduzir áudios em HTML5</p>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+
+    <audio preload="metadata" autoplay controls loop> <!--Leia as descrições de cada parâmetro! Descobrirá que a função autoplay pode ser útil caso o usuário autorize a reprodução do arquivo (não precisará procurar o player e dar o play)-->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Seu navegador não suporta áudio. Clique <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">aqui</a> para baixá-lo.</p>
+    </audio>
+</body>
+</html>

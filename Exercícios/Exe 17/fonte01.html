@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body { /*Sempre colocamos uma safe combination, isto é, opções extras para o navegador escolher, caso ele não possua a fonte selecionada!*/
+            font-family: Arial, Helvetica, sans-serif; /* Quando o nome da fonte forem duas palavras, é preciso colocar entre aspas simples ou dupla */
+            /*
+            Medidas absolutas
+            cm, mm, in (polegada), px, pt, pc (paica) 
+
+            Medias relativas
+            em (altura da letra m), ex (altura da letra x), rem (r de root, configuração segue o body), vw (view-width/largura da viewport), vh (altura da viewport), %
+            A W3C recomenda o uso do px e do em!
+            Geralmente, 16px = 1em e ambos são padrões
+            */
+            font-size: 1em;
+        }
+
+        h1, h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        p { /*Ordem da shorthand: font-style, font-variant, font-weight, font-size/line height, font-family*/
+            font: italic bold 1em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis voluptas, reprehenderit vel consectetur nihil voluptatem quasi totam facilis a deleniti doloremque! Consequatur aspernatur eum laborum maxime? Dolorem perspiciatis adipisci quas? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim impedit, dolores omnis non aut recusandae, deserunt soluta, molestiae minus pariatur provident corporis numquam quasi dignissimos quidem ad magni doloremque? Eos!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium aliquid modi. Quis nulla sequi id eos consequatur pariatur modi quos sint sunt, fuga commodi! Autem quae quasi nemo ad.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt, maiores est, dolore officiis cupiditate quo beatae quas quam et iure eius dicta, eos consequuntur eveniet ab saepe dolorum assumenda.</p>
+</body>
+</html>
