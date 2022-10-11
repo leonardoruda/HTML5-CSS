@@ -14,6 +14,7 @@
             width: 500px;
             border: 3px solid black;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -27,23 +28,28 @@
             text-shadow: 1px 1px 1.5px black;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
-            background-color: lightgray;
+            background-color: darkslategray;
+            color: white;
         }
 
         td.numero {
             text-align: right;
         }
 
-        #titulo {
-            
-            background-color: darkslategray;
-            color: white;
-            font-weight: bold;
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
+
     </style>
 </head>
 <body>
@@ -67,6 +73,141 @@
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45.919.043</td>
+            </tr>
+            <tr>
+               <td>Minas Gerais</td> 
+               <td class="numero">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11.433.789</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11.377.829</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9.557.458</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9.132.542</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.187</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">7.164.269</td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Repetindo!</td>
+                <td class="numero">1001201</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45.919.043</td>
+            </tr>
+            <tr>
+               <td>Minas Gerais</td> 
+               <td class="numero">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11.433.789</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11.377.829</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9.557.458</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9.132.542</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.187</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">7.164.269</td>
+            </tr>
+            <tr>
+                <td>Repetindo²!</td>
+                <td class="numero">1001201</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45.919.043</td>
+            </tr>
+            <tr>
+               <td>Minas Gerais</td> 
+               <td class="numero">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">11.433.789</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">11.377.829</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9.557.458</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9.132.542</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="numero">8.602.187</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="numero">7.164.269</td>
+            </tr>
+            <tr>
+                <td>Repetindo³!</td>
+                <td class="numero">1001201</td>
+            </tr>
             <tr>
                 <td>São Paulo</td>
                 <td class="numero">45.919.043</td>
