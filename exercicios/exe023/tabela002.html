@@ -11,7 +11,7 @@
         }
 
         table {
-            width: 600px;
+            width: 500px;
             border: 3px solid black;
             border-collapse: collapse;
         }
@@ -25,6 +25,13 @@
             background-color: gray;
             color: white;
             text-shadow: 1px 1px 1.5px black;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
         }
 
         td.numero {
@@ -52,13 +59,11 @@
                 tr, td, th
     -->
     <table>
-        <th id="titulo">Os 10 Estados Mais Populosos do Brasil</th>
-    
-    <table>
+        <caption>Os 10 Estados Mais Populosos do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -105,7 +110,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td><strong>210.125.456</strong></td>
             </tr>
         </tfoot>
