@@ -20,8 +20,21 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+i#burguer {
+    background-color: rgb(49, 49, 49);
     display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
@@ -49,7 +62,7 @@ main {
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
-}
+} 
 
 article > h2 {
     background-image: linear-gradient(to right, rgb(109, 109, 109), gray, rgb(136, 135, 135), transparent);
