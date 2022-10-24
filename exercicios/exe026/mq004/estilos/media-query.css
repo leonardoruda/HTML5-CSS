@@ -17,12 +17,18 @@ Grandes Telas: acima de 1200px;
 
     main {
         border: 2px solid black;
+        width: 90vw;
     }
 
     h1 {
         font-family: 'Courier New', Courier, monospace;
         text-shadow: none;
         color: black;
+    }
+
+    main::after {
+        content: 'Esta impressão foi feita através do site CursoemVideo.com';
+        text-decoration: overline;
     }
 
     img#phone { display: none;}
