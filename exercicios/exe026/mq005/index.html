@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -28,7 +30,17 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quae quisquam nam ab, praesentium nihil quaerat soluta recusandae placeat voluptatibus commodi, perferendis harum doloremque odio accusantium ullam, quidem blanditiis mollitia? Lorem ipsum dolor sit amet consectetur adipisicing elit. A, debitis quam velit ab qui blanditiis quidem. Quidem velit necessitatibus nostrum earum ipsum tenetur veritatis facere quod consequuntur, explicabo omnis vero.</p>
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil natus nobis cumque, et facere explicabo voluptas autem sint debitis, deserunt recusandae aut fugiat, assumenda doloremque quo ex. Reprehenderit, possimus corrupti? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, numquam magni. Explicabo officiis in praesentium natus dolorem autem quisquam ipsum obcaecati dolor nulla velit enim assumenda perspiciatis, eligendi quasi animi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt unde quos culpa, labore esse magnam. In, consectetur laudantium incidunt labore recusandae officiis voluptatem quaerat at sequi odit temporibus ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit cumque dicta necessitatibus, illum ad velit consequuntur eum corporis nam quaerat deserunt quos aliquid veniam facere natus inventore asperiores atque itaque!</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
