@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@media (max-width: 600px) {
+    header {
+        height: auto;
+    }
+    header.container {
+        flex-direction: row;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    div.logo img {
+        padding: 10px 0px 5px 20px;
+    }
+
+    .menu-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 20px;
+        height: 30px;
+        width: 30px;
+    }
+    .mm-line {
+        height: 3px;
+        background-color: #39aae1;
+    }
+
+    #banner {
+        height: auto;
+        background-size: cover;
+    }
+    .principal {
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+    .principal h1 {
+        padding-top: 10px;
+        font-size: 55px;
+        text-shadow: 1px 1px 7px #303030e7;
+    }
+    .principal h2 {
+        background-color: #4242422c;
+        padding: 5px;
+        padding-top: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-shadow: 1px 1px 7px #303030e7;
+    }
+
+    .secundario {
+        height: auto;
+        flex-direction: column;
+    }
+    .sec1, .sec2 {
+        flex: 1;
+        padding: 12px 5px 15px 20px;
+    }
+    .sec-desc {
+        font-size: 12px;
+        margin: 15px 0 15px 0;
+    }
+    .sec3 {
+        padding: 12px 15px 0px 20px;
+    } 
+
+    .container {
+        flex-direction: column;
+    }
+
+    #geral section, #geral aside {
+        padding: 20px;
+        margin-top: -10px;
+    }
+    .widget-title {
+        margin-top: 10px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+    section#footer-headlines {
+        flex-direction: column;
+    }
+    div.footer-head {
+        padding: 10px;
+    }
+    .footer-head1, .footer-head2, .footer-head3 {
+        padding: 10px;
+    }
+    div.footer-head-desc {
+        padding: 10px 0 10px 0;
+    }
+
+    section#footer-content {
+        flex-direction: column;
+    }
+    footer li {
+        line-height: 20px;
+        padding-bottom: 7px;
+    }
+    footer div.address {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer div.address div {
+        display: flex;
+        flex-flow: row wrap;
+        line-height: 25px;
+    }
+
+    footer .redes {
+        margin: 15px 0px -20px 0px;
+        justify-content: center;
+    }
+    span.redes img {
+        padding-right: 15px;
+        width: 50px;
+        height: 40px;
+    }
+    
+    .footer-copy {
+        padding-left: 20px;
+    }
+}
+
+
+
+
+
+
+/*max?1000*/
