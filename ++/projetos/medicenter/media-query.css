@@ -10,6 +10,10 @@
     nav ul {
         display: none;
         flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
     }
     .logo {
         display: flex;
