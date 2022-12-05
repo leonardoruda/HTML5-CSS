@@ -7,8 +7,27 @@
     <title>MediCenter</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector('.menu-mobile').addEventListener('click', function() {
+                if (document.querySelector('.menu nav ul').style.display == 'flex') {
+                    document.querySelector('.menu nav ul').style.display = 'none'
+                } else {
+                    document.querySelector('.menu nav ul').style.display = 'flex'
+                }
+            })
+        }
+        
+        function mudouTamanho() {
+            if (window.innerWidth >= 600) {
+                document.querySelector('.menu nav ul').style.display = 'flex'
+            } else {
+                document.querySelector('.menu nav ul').style.display = 'none'
+            }
+        }
+    </script>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <div class="container">
             <div class="logo">
